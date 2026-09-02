@@ -38,14 +38,11 @@ Our team had an amazing time working on this project, and hope to share our insi
 
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
-| Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
-| :------------ |:---------------:| :-----| :-----|
-| Desmond Chua | A1234567A | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567A@nus.edu.sg |
-| Chang Ye Han | A1234567B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
-| Chee Jia Wei | A1234567C | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
-| Ganesh Kumar | A1234567D | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
-| Jeanette Lim | A1234567E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567E@qq.com |
-
+| Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional)      |
+|:--------------------|:---------------:| :-----|:----------------------|
+| Le Chi Thanh        | A0352811L | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| thanhlc@u.nus.edu     |
+| Vuong Quang Viet Tung  | A0357416Y | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| viettungvuong@u.nus.edu   |
+| Tran Dinh Gia Khanh | A0359890J | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| khanh.dg.tran@u.nus.edu |
 ---
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO

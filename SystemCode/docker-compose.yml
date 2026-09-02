@@ -1,0 +1,80 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: remy/api/Dockerfile
+    env_file:
+      - .env.nonprod
+    environment:
+      PYTHONUNBUFFERED: "1"
+    ports:
+      - "8000:8000"
+    depends_on:
+      neo4j:
+        condition: service_started
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - >-
+          import urllib.request;
+          urllib.request.urlopen('http://localhost:8000/health')
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    profiles: [frontend]
+    build:
+      context: .
+      dockerfile: remy/app/Dockerfile
+    environment:
+      VITE_API_URL: http://localhost:8000
+    ports:
+      - "5173:5173"
+    depends_on:
+      api:
+        condition: service_healthy
+
+  data-crawler:
+    profiles: [jobs]
+    build:
+      context: .
+      dockerfile: remy/data-crawler/Dockerfile
+    env_file:
+      - .env.nonprod
+    environment:
+      PYTHONUNBUFFERED: "1"
+    restart: "no"
+
+  data-preparation:
+    profiles: [jobs]
+    build:
+      context: .
+      dockerfile: remy/data-preparation/Dockerfile
+    env_file:
+      - .env.nonprod
+    environment:
+      PYTHONUNBUFFERED: "1"
+    restart: "no"
+
+  neo4j:
+    image: neo4j:5-community
+    container_name: remy-neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?NEO4J_PASSWORD must be set}
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 2g
+      NEO4J_server_memory_pagecache_size: 1g
+    volumes:
+      - remy_neo4j_data:/data
+      - remy_neo4j_logs:/logs
+
+volumes:
+  remy_neo4j_data:
+  remy_neo4j_logs:

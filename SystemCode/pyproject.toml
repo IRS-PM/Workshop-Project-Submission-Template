@@ -1,0 +1,17 @@
+[project]
+name = "remy"
+version = "0.1.0"
+description = "Remy weekly planner monorepo"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = [
+    "remy/api",
+    "remy/workflows",
+    "remy/data-crawler",
+    "remy/data-preparation",
+]
