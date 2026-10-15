@@ -1,0 +1,29 @@
+remy:
+  target: "{{ env_var('DBT_TARGET', 'nonprod') }}"
+  outputs:
+    nonprod:
+      type: duckdb
+      path: "{{ env_var('DBT_NONPROD_PATH', 'target/nonprod.duckdb') }}"
+      schema: main
+      threads: 1
+      extensions:
+        - parquet
+        - ducklake
+      attach:
+        - path: "ducklake:sqlite:{{ env_var('DBT_NONPROD_DUCKLAKE_CATALOG', 'target/nonprod/ducklake/catalog.sqlite') }}"
+          alias: lake
+          options:
+            data_path: "{{ env_var('DBT_NONPROD_DUCKLAKE_DATA', 'target/nonprod/ducklake/data') }}"
+    prod:
+      type: duckdb
+      path: "{{ env_var('DBT_PROD_PATH', 'target/prod.duckdb') }}"
+      schema: main
+      threads: 1
+      extensions:
+        - parquet
+        - ducklake
+      attach:
+        - path: "ducklake:sqlite:{{ env_var('DBT_PROD_DUCKLAKE_CATALOG', 'target/prod/ducklake/catalog.sqlite') }}"
+          alias: lake
+          options:
+            data_path: "{{ env_var('DBT_PROD_DUCKLAKE_DATA', 'target/prod/ducklake/data') }}"

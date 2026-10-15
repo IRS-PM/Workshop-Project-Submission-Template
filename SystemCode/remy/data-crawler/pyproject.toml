@@ -1,0 +1,16 @@
+[project]
+name = "remy-data-crawler"
+version = "0.1.0"
+description = "Data crawler for Remy"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "beautifulsoup4>=4.12,<5",
+    "httpx>=0.27,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/data_crawler"]

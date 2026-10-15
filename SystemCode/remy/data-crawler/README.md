@@ -1,0 +1,1 @@
+The dataset is fetched from https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2026-04-30.zip

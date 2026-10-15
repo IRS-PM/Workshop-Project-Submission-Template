@@ -1,0 +1,317 @@
+# Local Langfuse uses the official v3 topology. All settings live in one file per
+# target: .env.nonprod (local) or .env.prod. Fill the Langfuse keys first:
+# uv run --package remy-api python scripts/init_langfuse.py
+# docker compose --env-file .env.nonprod up ...          (DBT_TARGET=prod: --env-file .env.prod)
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: remy
+      POSTGRES_PASSWORD: ${REMY_POSTGRES_PASSWORD:?Set it in .env.nonprod or .env.prod}
+      POSTGRES_HOST_AUTH_METHOD: scram-sha-256
+      POSTGRES_INITDB_ARGS: --auth-local=scram-sha-256 --auth-host=scram-sha-256
+    volumes:
+      - remy_postgres_data:/var/lib/postgresql/data
+      - ./remy/backend/db.sql:/docker-entrypoint-initdb.d/db.sql:ro
+    healthcheck:
+      test: ["CMD", "pg_isready", "-h", "127.0.0.1", "-U", "remy", "-d", "remy_main"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    build:
+      context: .
+      dockerfile: remy/backend/Dockerfile
+    environment:
+      PYTHONUNBUFFERED: "1"
+      REMY_DATABASE_URL: postgresql://remy@postgres:5432/remy_main
+      POSTGRES_PASSWORD: ${REMY_POSTGRES_PASSWORD:?Set it in .env.nonprod or .env.prod}
+      REMY_JWT_SECRET: ${REMY_JWT_SECRET:?Set it in .env.nonprod or .env.prod}
+      REMY_COOKIE_NAME: remy_workshop_session
+      REMY_CORS_ORIGINS: http://localhost:${FRONTEND_PORT:-3100},http://127.0.0.1:${FRONTEND_PORT:-3100}
+    ports:
+      - "127.0.0.1:${BACKEND_PORT:-8010}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  api:
+    build: &api-build
+      context: .
+      dockerfile: remy/api/Dockerfile
+    env_file:
+      - .env.${DBT_TARGET:-nonprod}
+    environment:
+      PYTHONUNBUFFERED: "1"
+      LANGFUSE_TRACING_ENABLED: "true"
+      LANGFUSE_BASE_URL: http://langfuse-web:3000
+      LANGFUSE_PUBLIC_KEY: ${LANGFUSE_PUBLIC_KEY:?Run scripts/init_langfuse.py and load .env.nonprod}
+      LANGFUSE_SECRET_KEY: ${LANGFUSE_SECRET_KEY:?Run scripts/init_langfuse.py and load .env.nonprod}
+      LANGFUSE_ENVIRONMENT: ${DBT_TARGET:-nonprod}
+      REMY_EVALUATION_TOKEN: ${REMY_EVALUATION_TOKEN:?Run scripts/init_langfuse.py and load .env.nonprod}
+      REMY_EVALUATION_DB: /workspace/target/evaluations.sqlite3
+      # rule = nutrient ranking (default). jev = Jev reranks the pool and needs JEV_API_KEY.
+      RANKER_MODE: ${RANKER_MODE:-rule}
+      JEV_API_KEY: ${JEV_API_KEY:-}
+      JEV_MODEL: ${JEV_MODEL:-jev-latest}
+      # jev = grade the final pool after generate (default); needs JEV_API_KEY. off = no judge task.
+      JUDGE_MODE: ${JUDGE_MODE:-jev}
+      # Plan-run checkpoints (LangGraph) live in the remy_main database, schema langgraph.
+      REMY_CHECKPOINT_DB_URL: postgresql://remy:${REMY_POSTGRES_PASSWORD:?Set it in .env.nonprod or .env.prod}@postgres:5432/remy_main
+      # Inside the container localhost is not the host, so a local Neo4j needs NEO4J_DOCKER_URI.
+      NEO4J_URI: ${NEO4J_DOCKER_URI:-${NEO4J_URI}}
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - remy_evaluations:/workspace/target
+    depends_on:
+      postgres:
+        condition: service_healthy
+      neo4j:
+        condition: service_started
+        required: false
+      langfuse-web:
+        condition: service_healthy
+      langfuse-worker:
+        condition: service_started
+      langfuse-gateway:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - >-
+          import urllib.request;
+          urllib.request.urlopen('http://localhost:8000/health')
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: remy/frontend
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:${BACKEND_PORT:-8010}
+        REMY_API_URL: http://api:8000
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-3100}:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:3000/signin"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  data-crawler:
+    profiles: [jobs]
+    build:
+      context: .
+      dockerfile: remy/data-crawler/Dockerfile
+    env_file:
+      - .env.${DBT_TARGET:-nonprod}
+    environment:
+      PYTHONUNBUFFERED: "1"
+    restart: "no"
+
+  data-preparation:
+    profiles: [jobs]
+    build:
+      context: .
+      dockerfile: remy/data-preparation/Dockerfile
+    env_file:
+      - .env.${DBT_TARGET:-nonprod}
+    environment:
+      PYTHONUNBUFFERED: "1"
+    restart: "no"
+
+  neo4j:
+    profiles: [neo4j]
+    image: neo4j:5-community
+    container_name: remy-neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: ${NEO4J_USERNAME:-neo4j}/${NEO4J_PASSWORD:?NEO4J_PASSWORD must be set}
+      NEO4J_server_memory_heap_initial__size: 1g
+      NEO4J_server_memory_heap_max__size: 5g
+      NEO4J_server_memory_pagecache_size: 1g
+      NEO4J_dbms_memory_transaction_total_max: 5g
+    volumes:
+      - remy_neo4j_data:/data
+      - remy_neo4j_logs:/logs
+
+  langfuse-worker:
+    image: docker.langfuse.com/langfuse/langfuse-worker:3
+    restart: unless-stopped
+    depends_on: &langfuse-dependencies
+      langfuse-postgres:
+        condition: service_healthy
+      langfuse-clickhouse:
+        condition: service_healthy
+      langfuse-redis:
+        condition: service_healthy
+      langfuse-minio:
+        condition: service_healthy
+    environment: &langfuse-environment
+      DATABASE_URL: postgresql://postgres:${LANGFUSE_POSTGRES_PASSWORD:?Set it in .env.nonprod or .env.prod}@langfuse-postgres:5432/langfuse
+      SALT: ${LANGFUSE_SALT:?Set it in .env.nonprod or .env.prod}
+      ENCRYPTION_KEY: ${LANGFUSE_ENCRYPTION_KEY:?Set it in .env.nonprod or .env.prod}
+      TELEMETRY_ENABLED: "false"
+      CLICKHOUSE_MIGRATION_URL: clickhouse://langfuse-clickhouse:9000
+      CLICKHOUSE_URL: http://langfuse-clickhouse:8123
+      CLICKHOUSE_USER: langfuse
+      CLICKHOUSE_PASSWORD: ${LANGFUSE_CLICKHOUSE_PASSWORD:?Set it in .env.nonprod or .env.prod}
+      CLICKHOUSE_CLUSTER_ENABLED: "false"
+      REDIS_HOST: langfuse-redis
+      REDIS_PORT: "6379"
+      REDIS_AUTH: ${LANGFUSE_REDIS_PASSWORD:?Set it in .env.nonprod or .env.prod}
+      REDIS_TLS_ENABLED: "false"
+      LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_EVENT_UPLOAD_REGION: auto
+      LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: langfuse
+      LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD:?Set it in .env.nonprod or .env.prod}
+      LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_EVENT_UPLOAD_PREFIX: events/
+      LANGFUSE_S3_MEDIA_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
+      LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID: langfuse
+      LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD:?Set it in .env.nonprod or .env.prod}
+      LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_MEDIA_UPLOAD_PREFIX: media/
+
+  langfuse-web:
+    image: docker.langfuse.com/langfuse/langfuse:3
+    restart: unless-stopped
+    depends_on: *langfuse-dependencies
+    environment:
+      <<: *langfuse-environment
+      HOSTNAME: "0.0.0.0"
+      NEXTAUTH_URL: http://localhost:${LANGFUSE_PORT:-3031}
+      NEXTAUTH_SECRET: ${LANGFUSE_NEXTAUTH_SECRET:?Set it in .env.nonprod or .env.prod}
+      LANGFUSE_INIT_ORG_ID: remy
+      LANGFUSE_INIT_ORG_NAME: Remy
+      LANGFUSE_INIT_PROJECT_ID: remy-planner
+      LANGFUSE_INIT_PROJECT_NAME: Remy meal planner
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: ${LANGFUSE_PUBLIC_KEY:?Set it in .env.nonprod or .env.prod}
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: ${LANGFUSE_SECRET_KEY:?Set it in .env.nonprod or .env.prod}
+      LANGFUSE_INIT_USER_EMAIL: ${LANGFUSE_INIT_USER_EMAIL:?Set it in .env.nonprod or .env.prod}
+      LANGFUSE_INIT_USER_NAME: Remy Admin
+      LANGFUSE_INIT_USER_PASSWORD: ${LANGFUSE_INIT_USER_PASSWORD:?Set it in .env.nonprod or .env.prod}
+      AUTH_DISABLE_SIGNUP: "true"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:3000/api/public/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
+
+  langfuse-gateway:
+    build: *api-build
+    restart: unless-stopped
+    command: ["uv", "run", "--frozen", "--no-dev", "--package", "remy-api", "python", "-m", "api.core.langfuse_gateway"]
+    depends_on:
+      langfuse-web:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:${LANGFUSE_PORT:-3031}:3030"
+    environment:
+      LANGFUSE_DASHBOARD_URL: http://localhost:${LANGFUSE_PORT:-3031}
+      LANGFUSE_INIT_USER_EMAIL: ${LANGFUSE_INIT_USER_EMAIL:?Set it in .env.nonprod or .env.prod}
+      LANGFUSE_INIT_USER_PASSWORD: ${LANGFUSE_INIT_USER_PASSWORD:?Set it in .env.nonprod or .env.prod}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:3030/health')"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  langfuse-postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${LANGFUSE_POSTGRES_PASSWORD:?Set it in .env.nonprod or .env.prod}
+      POSTGRES_DB: langfuse
+    volumes:
+      - langfuse_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d langfuse"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  langfuse-clickhouse:
+    image: clickhouse/clickhouse-server:24.8
+    restart: unless-stopped
+    user: "101:101"
+    environment:
+      CLICKHOUSE_DB: default
+      CLICKHOUSE_USER: langfuse
+      CLICKHOUSE_PASSWORD: ${LANGFUSE_CLICKHOUSE_PASSWORD:?Set it in .env.nonprod or .env.prod}
+    volumes:
+      - langfuse_clickhouse:/var/lib/clickhouse
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8123/ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  langfuse-redis:
+    image: redis:7
+    restart: unless-stopped
+    environment:
+      REDIS_PASSWORD: ${LANGFUSE_REDIS_PASSWORD:?Set it in .env.nonprod or .env.prod}
+      REDISCLI_AUTH: ${LANGFUSE_REDIS_PASSWORD:?Set it in .env.nonprod or .env.prod}
+    command: ["sh", "-c", "exec redis-server --requirepass \"$$REDIS_PASSWORD\" --appendonly yes --maxmemory-policy noeviction"]
+    volumes:
+      - langfuse_redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  # S3-compatible store for Langfuse uploads. SeaweedFS replaces MinIO because
+  # quay.io/minio/minio now needs registry login. Serves S3 on :9000 and creates
+  # the "langfuse" bucket on start, as the old MinIO command did.
+  langfuse-minio:
+    image: chrislusf/seaweedfs:latest
+    restart: unless-stopped
+    entrypoint: ["sh", "-c"]
+    command:
+      - |
+        /usr/bin/weed server -s3 -dir=/data -s3.port=9000 &
+        until curl -s -o /dev/null http://127.0.0.1:9000/; do sleep 1; done
+        curl -s -o /dev/null -X PUT http://127.0.0.1:9000/langfuse
+        wait
+    volumes:
+      - langfuse_minio:/data
+    healthcheck:
+      test: ["CMD", "curl", "-s", "-o", "/dev/null", "http://127.0.0.1:9000/"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  remy_postgres_data:
+  remy_evaluations:
+  remy_neo4j_data:
+  remy_neo4j_logs:
+  langfuse_postgres:
+  langfuse_clickhouse:
+  langfuse_redis:
+  langfuse_minio:

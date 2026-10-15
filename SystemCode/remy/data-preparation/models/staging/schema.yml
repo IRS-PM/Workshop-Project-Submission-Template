@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: fooddata_central_files
+    description: "Raw FoodData Central files that are not dbt CSV seeds."
+    meta:
+      external_location: "read_parquet('seeds/central_food/{name}/*.parquet')"
+    tables:
+      - name: food_nutrient
+        description: "Food nutrient observations used by stg_food_nutrient."
+
+models:
+  - name: stg_recipes
+    description: "Recipe source rows from the 13k recipe dataset."
+  - name: stg_food
+    description: "1:1 staging table from the FoodData Central food seed."
+  - name: stg_branded_food
+    description: "1:1 staging table from the branded_food seed."
+  - name: stg_food_component
+    description: "1:1 staging table from the food_component seed."
+  - name: stg_food_nutrient
+    description: "1:1 staging table from the Parquet-optimized food_nutrient source."
+
+  - name: stg_price_mapped_nutrients
+    description: "Preferred compact FDC profiles; aggregate prices remain audit-only."
+    columns:
+      - name: fdc_id
+        tests: [not_null, unique]
+      - name: source_snapshot_id
+        tests: [not_null]
+
+  - name: stg_retail_listing
+    description: "Raw legacy aisle and search listings with explicit lineage and unknown offer evidence."
+    columns:
+      - name: source_row_id
+        tests: [not_null, unique]
+      - name: source_kind
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['aisle', 'search']

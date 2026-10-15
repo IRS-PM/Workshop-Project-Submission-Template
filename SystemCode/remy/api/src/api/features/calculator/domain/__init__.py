@@ -1,0 +1,1 @@
+"""Pure calculator domain logic."""

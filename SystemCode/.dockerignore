@@ -1,0 +1,19 @@
+.git
+# Patterns only match at the context root unless they start with **/, so the
+# nested venvs, node_modules and .env files under remy/* need the **/ form.
+**/.venv
+**/__pycache__
+**/*.py[cod]
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.coverage*
+**/node_modules
+**/.next
+**/.env*
+!**/.env.example
+**/*.log
+**/target
+**/dbt_packages
+**/logs
+**/.DS_Store

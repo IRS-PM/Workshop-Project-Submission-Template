@@ -1,0 +1,29 @@
+[project]
+name = "remy"
+version = "0.1.0"
+description = "Remy weekly planner monorepo"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.141.1",
+    "inflect>=7.5.0",
+    "langgraph",
+    "langgraph-checkpoint",
+    "langgraph-checkpoint-postgres",
+    "uvicorn[standard]>=0.52.4",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = [
+    "remy/domain",
+    "remy/api",
+    "remy/backend",
+    "remy/workflows",
+    "remy/data-crawler",
+    "remy/data-preparation",
+]
+
+[dependency-groups]
+dev = ["import-linter>=2,<3"]

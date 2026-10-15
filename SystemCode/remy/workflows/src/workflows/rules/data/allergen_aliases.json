@@ -1,0 +1,25 @@
+{
+  "peanut": ["peanut", "peanuts", "groundnut", "groundnuts", "arachis hypogaea"],
+  "tree_nut": [
+    "tree nut", "tree nuts", "almond", "almonds", "cashew", "cashews",
+    "walnut", "walnuts", "pecan", "pecans", "pistachio", "pistachios",
+    "macadamia", "macadamias", "hazelnut", "hazelnuts", "filbert",
+    "brazil nut", "brazil nuts", "pine nut", "pine nuts"
+  ],
+  "milk": ["milk", "dairy", "lactose", "casein", "whey", "cream", "butter", "ghee", "cheese", "curd"],
+  "egg": ["egg", "eggs", "albumin", "globulin", "lysozyme", "ovalbumin", "ovomucin"],
+  "wheat_gluten": ["wheat", "gluten", "semolina", "spelt", "kamut", "durum", "farina", "couscous"],
+  "soy": ["soy", "soya", "soybean", "soybeans", "edamame", "tofu", "tempeh", "miso"],
+  "fish": ["fish", "cod", "salmon", "tuna", "anchovy", "anchovies", "sardine", "sardines", "mackerel", "haddock", "pollock", "tilapia", "bass", "trout"],
+  "shellfish": [
+    "shellfish", "shrimp", "prawn", "prawns", "crab", "lobster",
+    "crayfish", "crawfish", "clam", "clams", "mussel", "mussels",
+    "oyster", "oysters", "scallop", "scallops", "squid", "calamari",
+    "octopus"
+  ],
+  "sesame": ["sesame", "sesame seed", "sesame seeds", "tahini", "halvah"],
+  "mustard": ["mustard", "mustard seed", "mustard seeds"],
+  "celery": ["celery", "celeriac"],
+  "lupin": ["lupin", "lupine", "lupini"],
+  "sulphites": ["sulphite", "sulphites", "sulfite", "sulfites", "sulphur dioxide", "sulfur dioxide", "so2", "e220", "e221", "e222", "e223", "e224", "e226", "e227", "e228"]
+}

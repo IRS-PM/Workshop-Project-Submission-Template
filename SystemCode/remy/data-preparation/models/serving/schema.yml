@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: recipe_graph_to_neo4j
+    description: "Capacity-gated, ownership-scoped synchronization of the eight node and eight relationship marts."
+    columns:
+      - name: entity
+        description: "Neo4j node label or relationship type loaded."
+        tests: [not_null, unique]
+      - name: loaded_rows
+        description: "Number of source mart rows loaded."
+        tests: [not_null]

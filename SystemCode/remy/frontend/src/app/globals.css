@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* A warm, deliberately light brand. No dark variant: the palette is the
+   identity, and inverting it would not be the same product. */
+:root {
+  color-scheme: light;
+
+  --background: #f7f5ef;
+  --surface: #ffffff;
+  --panel: #fbfaf5;
+  --foreground: #21382a;
+  --muted: #6e7469;
+  --subtle: #e6e2d6;
+  --accent: #e8663c;
+  --accent-foreground: #ffffff;
+  --sage: #dde7d4;
+  --sage-deep: #cbd9c0;
+  --sage-foreground: #2c4633;
+  --cream: #f1ece0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-panel: var(--panel);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-sage: var(--sage);
+  --color-sage-deep: var(--sage-deep);
+  --color-sage-foreground: var(--sage-foreground);
+  --color-cream: var(--cream);
+
+  --font-sans: var(--font-jakarta);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* The eyebrow labels above each section heading. */
+.eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}

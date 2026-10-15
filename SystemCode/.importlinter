@@ -1,0 +1,31 @@
+[importlinter]
+root_packages =
+    domain
+    workflows
+    api
+
+[[contracts]]
+name = domain is a leaf
+type = forbidden
+source_modules = domain
+forbidden_modules =
+    workflows
+    api
+    app
+    data_crawler
+    data_preparation
+
+[[contracts]]
+name = workflows does not depend on api
+type = forbidden
+source_modules = workflows
+forbidden_modules =
+    api
+    app
+
+[[contracts]]
+name = api does not depend on app
+type = forbidden
+source_modules = api
+forbidden_modules =
+    app

@@ -1,0 +1,529 @@
+term,occurrences,rank,product_id,category,name,price_value,quantity,dietary
+formula,168,1,13013346,baby-child-toys,Palmer's Cocoa Butter Formula Massage Lotion for Stretch Marks,29.07,250ml,
+formula,168,2,13200320,baby-child-toys,Enfagrow Pro A+ Growing Up Milk Powder Formula - Stage 3,104.95,1.65kg,Halal
+formula,168,3,13226927,baby-child-toys,Enfagrow Pro A+ Growing Up Milk Powder Formula - Stage 3,55.45,800g,
+formula,168,4,13131001,baby-child-toys,Abbott Grow Toddler Stage 3 Milk Formula – 1 to 3 Years,30.18,900g,Halal
+formula,168,5,13263704,baby-child-toys,Aptamil Gold+ Toddler Growing Up Milk Formula - Stage 3,92.4,2 x 900g,Halal
+formula,168,6,13165079,baby-child-toys,Nature One Dairy Premium Milk Drink Formula - Step 3,33.2,900g,
+formula,168,7,13216338,baby-child-toys,Nestle Nan Supremepro H.A Milk Formula - Stage 3,58.8,800g,Halal
+formula,168,8,13050946,baby-child-toys,Wyeth S26 Promise Gold Grow Up Milk Formula - Step 4,73.8,1.6kg,Halal
+formula,168,9,13057291,baby-child-toys,Abbott Isomil Growing Up Soy Milk Formula - Step 3,71.3,850g,
+formula,168,10,13200334,baby-child-toys,Enfagrow Pro A+ Growing Up Milk Powder Formula - Stage 4,83.3,1.65kg,Halal
+formula,168,11,13050947,baby-child-toys,Wyeth S26 Gold Progress Grow Up Milk Formula - Step 3,87.3,1.6kg,Halal
+formula,168,12,12711454,baby-child-toys,Aptamil Gold+ Toddler Growing Up Milk Formula - Stage 3,286.9,6 x 900g (CTN),
+formula,168,13,13210795,baby-child-toys,Karihome Goat Milk Growing Up Formula - Stage 3,58.83,900g,Halal
+formula,168,14,13275383,baby-child-toys,Enfagrow Pro A+ Growing Up Milk Powder Formula - Stage 3,178.9,2 x 1.65kg,
+formula,168,15,13263703,baby-child-toys,Aptamil Gold+ Junior Growing Up Milk Formula - Stage 4,77.9,2 x 900g,Halal
+formula,168,16,12619732,baby-child-toys,Abbott Grow School Stage 5 Milk Formula – 6 Years Onwards,73.83,1.8kg,Halal
+formula,168,17,13012302,baby-child-toys,Abbott Similac Total Comfort Growing Up Milk Formula - Stage 3,69.75,820g,Halal
+formula,168,18,13280061,baby-child-toys,Nestle Lactogen Growing Up Milk Formula - Stage 3,45.0,1.6kg,Halal
+formula,168,19,12619695,baby-child-toys,Abbott Grow School Stage 5 Milk Formula – 6 Years Onwards,40.07,900g,Halal
+formula,168,20,13210794,baby-child-toys,Karihome Goat Milk Pre-School Formula - Stage 4,58.83,900g,Halal
+sandwich,177,1,12083675,snacks--confectionery,Julie's Sandwich Biscuits - Peanut Butter,5.6,360g (12 per pack),
+sandwich,177,2,13012296,snacks--confectionery,Oreo Sandwich Cookie Multipack - Vanilla,3.05,236.2g,Halal
+sandwich,177,3,13160723,snacks--confectionery,Ritz Sandwich Biscuits Multipack - Cheese Cream,3.0,243g,Halal
+sandwich,177,4,10797324,snacks--confectionery,Khong Guan Sandwich Biscuits - Lemon Puff,2.8,260g (12 per pack),
+sandwich,177,5,13212611,snacks--confectionery,Oreo Sandwich Cookies Multipack - Mildly Sweet,3.05,248.4g,Halal
+sandwich,177,6,12021917,snacks--confectionery,Julie's Sandwich Biscuits - Cheese,5.6,336g (12 per pack),
+sandwich,177,7,12599807,snacks--confectionery,Julie's Le-Mond Sandwich Biscuits - Lemon,3.26,170g,
+sandwich,177,8,13175396,snacks--confectionery,Oreo Mini Sandwich Cookies Sharepack - Vanilla,4.0,163.2g,
+sandwich,177,9,13013277,snacks--confectionery,Munchy's Lexus Sandwich Calcium Crackers - Chocolate,3.63,190g,
+sandwich,177,10,11167455,snacks--confectionery,Cowhead Sandwich Crackers with Calcium - Cheese,2.65,190g (8 per pack),
+sandwich,177,11,13160720,snacks--confectionery,Ritz Sandwich Biscuits Multipack - Lemon Cream,3.0,243g,
+sandwich,177,12,13289746,snacks--confectionery,Oreo Sandwich Cookie Multipack - Purple Brown Sugar (BTS),3.05,236.25g,Halal
+sandwich,177,13,13013279,snacks--confectionery,Munchy's Lexus Sandwich Calcium Crackers - Peanut Butter,3.63,190g,
+sandwich,177,14,13102645,snacks--confectionery,Jack 'n Jill Dewberry Sandwich Biscuits - Strawberry,3.3,12 x 27g,
+sandwich,177,15,11167498,snacks--confectionery,Cowhead Sandwich Crackers with Calcium - Milk,2.86,190g (8 per pack),
+sandwich,177,16,13098765,snacks--confectionery,Oreo Sandwich Cookies Multipack - Dark & White Chocolate,3.05,236.25g,Halal
+sandwich,177,17,13030696,snacks--confectionery,Munchy's Lexus Sandwich Biscuits - Chocolate,3.63,200g,Halal
+sandwich,177,18,13012298,snacks--confectionery,Oreo Sandwich Cookie Multipack - Chocolate,3.05,236.25g,Halal
+sandwich,177,19,13013276,snacks--confectionery,Munchy’s Lexus Sandwich Calcium Crackers - Cheese,3.63,190g,
+sandwich,177,20,13102644,snacks--confectionery,Jack 'n Jill Dewberry Sandwich Biscuits - Blueberry,3.3,12 x 27g,Halal
+cereals,175,1,13208400,food-cupboard-6,Nestle Trix Cereal,6.97,330g,Halal
+cereals,175,2,13206550,food-cupboard-6,Nestle Koko Krunch Economic Pack,8.5,450g,Halal
+cereals,175,3,10591166,food-cupboard-6,Nestle Cereal - Variety School Pack,4.9,6 x 20g / 25g,Halal
+cereals,175,4,10305473,food-cupboard-6,Nestle Cereal - Honey Stars,6.46,300g,Halal
+cereals,175,5,13020957,food-cupboard-6,Post Great Grains Cereal - Banana Nut Crunch,6.5,439g,
+cereals,175,6,13018680,food-cupboard-6,Post Great Grains Cereal - Blueberry Morning,6.5,382g,
+cereals,175,7,13206560,food-cupboard-6,Nestle Milo Cereal Economic Pack,8.5,450g,Halal
+cereals,175,8,114843,food-cupboard-6,Nestle Cereal - Koko Krunch,6.46,300g,Halal
+cereals,175,9,13021420,food-cupboard-6,Post Great Grains Cereal - Cranberry Almond Crunch,6.5,396g,
+cereals,175,10,11042329,food-cupboard-6,Kellogg's Cereal - Cornflakes (Jumbo Pack),6.7,500g,
+cereals,175,11,13245073,food-cupboard-6,Nestle Cereal - Milo,1.64,70g,Halal
+cereals,175,12,80440,food-cupboard-6,Nestle Cereal - Milo,4.0,150g,Halal
+cereals,175,13,13206570,food-cupboard-6,Nestle Cereal - Honey Stars Econopack,8.5,450g,Halal
+cereals,175,14,10613679,food-cupboard-6,Nestle Cereal - Milo,5.65,300g,Halal
+cereals,175,15,13184589,food-cupboard-6,Nestle Cereal - Gold Cornflakes,5.95,500g,
+cereals,175,16,13174343,food-cupboard-6,Post Cereals - Waffle Crisp,7.52,326g,
+cereals,175,17,12620098,food-cupboard-6,Sanitarium Weet-Bix Breakfast Cereal,9.04,750g,
+cereals,175,18,13021613,food-cupboard-6,Post Great Grains Cereal - Raisins- Dates & Pecans,6.5,453g,
+cereals,175,19,13021228,food-cupboard-6,Post Great Grains Cereal - Crunchy Pecan,6.5,453g,
+cereals,175,20,13180964,food-cupboard-6,Kellogg's Cereal - Froot Loops,8.9,400g,Halal
+nuts,77,1,13136644,snacks--confectionery,Camel Natural Wholesome Nut Mix - Power Bounce,12.12,10 per pack,
+nuts,77,2,13276096,snacks--confectionery,FairPrice Trail Mix - Energy Booster,7.7,7 x 25g,
+nuts,77,3,13276097,snacks--confectionery,FairPrice Trail Mix - Focus Booster,7.7,7 x 25g,
+nuts,77,4,13136645,snacks--confectionery,Camel Natural Wholesome Nut Mix - Power Revive,12.12,10 per pack,
+nuts,77,5,13258470,snacks--confectionery,Camel Natural Wholesome Nut Mix - Power Delight,10.9,250g,Halal
+nuts,77,6,11961907,snacks--confectionery,Nature's Wonders The Royal Mix,8.8,220g,
+nuts,77,7,13210300,snacks--confectionery,FairPrice Mixed Snacks,1.12,150g,Halal
+nuts,77,8,13237058,snacks--confectionery,Camel Mixed Snacks - Bundle Pack,6.66,12 x 36g,Halal
+nuts,77,9,13292814,snacks--confectionery,FairPrice Trail Mix - Glow Booster,7.7,7 x 25g,
+nuts,77,10,13183194,snacks--confectionery,FairPrice Snacks - Mixed Nuts (Premium),6.01,150g,Halal
+nuts,77,11,13292826,snacks--confectionery,FairPrice Trail Mix - Vitality Booster,7.7,7 x 25g,
+nuts,77,12,10878597,snacks--confectionery,Nature's Wonders Fruits & Nuts Fusion,6.95,270g,
+nuts,77,13,13185120,snacks--confectionery,Tong Garden Nutrione Baked Nuts & Dried Fruit - Mango Tango,10.08,7 x 28g,Halal
+nuts,77,14,13183196,snacks--confectionery,FairPrice Natural Fruits & Nuts,11.51,400g,Halal
+nuts,77,15,11241328,snacks--confectionery,Camel Natural Baked Cocktail Mix,12.12,400g,
+nuts,77,16,13048945,snacks--confectionery,Tong Garden Roasted Salted Nuts - Cocktail,10.9,400g,Halal
+nuts,77,17,10999209,snacks--confectionery,Tai Sun Oriental Mix,1.55,150g,
+nuts,77,18,13037223,snacks--confectionery,Tong Garden Party Snack (Freshly Roasted),4.05,400g,
+nuts,77,19,11036455,snacks--confectionery,Tai Sun Coated Green Peas,1.55,140g,
+nuts,77,20,13050035,snacks--confectionery,Nature's Wonders Nuts Mix - Macadamia & Cashews,5.6,150g,Halal
+cereal,51,1,13208400,food-cupboard-6,Nestle Trix Cereal,6.97,330g,Halal
+cereal,51,2,13206550,food-cupboard-6,Nestle Koko Krunch Economic Pack,8.5,450g,Halal
+cereal,51,3,10591166,food-cupboard-6,Nestle Cereal - Variety School Pack,4.9,6 x 20g / 25g,Halal
+cereal,51,4,10305473,food-cupboard-6,Nestle Cereal - Honey Stars,6.46,300g,Halal
+cereal,51,5,13020957,food-cupboard-6,Post Great Grains Cereal - Banana Nut Crunch,6.5,439g,
+cereal,51,6,13018680,food-cupboard-6,Post Great Grains Cereal - Blueberry Morning,6.5,382g,
+cereal,51,7,13206560,food-cupboard-6,Nestle Milo Cereal Economic Pack,8.5,450g,Halal
+cereal,51,8,80440,food-cupboard-6,Nestle Cereal - Milo,4.0,150g,Halal
+cereal,51,9,13021420,food-cupboard-6,Post Great Grains Cereal - Cranberry Almond Crunch,6.5,396g,
+cereal,51,10,11042329,food-cupboard-6,Kellogg's Cereal - Cornflakes (Jumbo Pack),6.7,500g,
+cereal,51,11,114843,food-cupboard-6,Nestle Cereal - Koko Krunch,6.46,300g,Halal
+cereal,51,12,13245073,food-cupboard-6,Nestle Cereal - Milo,1.64,70g,Halal
+cereal,51,13,13206570,food-cupboard-6,Nestle Cereal - Honey Stars Econopack,8.5,450g,Halal
+cereal,51,14,10613679,food-cupboard-6,Nestle Cereal - Milo,5.65,300g,Halal
+cereal,51,15,13184589,food-cupboard-6,Nestle Cereal - Gold Cornflakes,5.95,500g,
+cereal,51,16,13174343,food-cupboard-6,Post Cereals - Waffle Crisp,7.52,326g,
+cereal,51,17,12620098,food-cupboard-6,Sanitarium Weet-Bix Breakfast Cereal,9.04,750g,
+cereal,51,18,13021613,food-cupboard-6,Post Great Grains Cereal - Raisins- Dates & Pecans,6.5,453g,
+cereal,51,19,13021228,food-cupboard-6,Post Great Grains Cereal - Crunchy Pecan,6.5,453g,
+cereal,51,20,13180964,food-cupboard-6,Kellogg's Cereal - Froot Loops,8.9,400g,Halal
+candies,104,1,13083487,snacks--confectionery,Skittles Candies - Original (Fun Size Bag),5.14,10 x 15g,Halal
+candies,104,2,225830,snacks--confectionery,Mentos Chewy Dragees - Mint (Share- A-Bowl),1.9,135g,
+candies,104,3,13249621,snacks--confectionery,Hi-Chew Chewy Candy - Grape and Green Apple,2.8,100g,
+candies,104,4,13269335,snacks--confectionery,Skittles Gummies - Fruit,2.0,42.5g,
+candies,104,5,13250100,snacks--confectionery,Hi-Chew Chewy Candy - Grape and Strawberry,2.8,100g,
+candies,104,6,13250090,snacks--confectionery,Hi-Chew Chewy Candy - Grape and Peach and Lychee,2.8,100g,
+candies,104,7,13023349,snacks--confectionery,Mentos Mini Chewy Dragees - Rainbow,1.9,120g,
+candies,104,8,13240793,snacks--confectionery,Eclipse Plus Soothing Herbal Mint - Loquat Pear,3.85,30g,
+candies,104,9,13070283,snacks--confectionery,TNCC Chews Candies - Sour,4.95,180g,
+candies,104,10,13205856,snacks--confectionery,Hi-Chew Chewy Candy - Soda Pop,2.8,90g,
+candies,104,11,11583571,snacks--confectionery,Wrigley's Eclipse Sugar Free Mints Candy - Spearmint,3.84,35g,
+candies,104,12,13052399,snacks--confectionery,Wrigley's Eclipse Sugar Free Mints Candy - Berry,3.84,35g,Halal
+candies,104,13,13035327,snacks--confectionery,Mentos Chewy Dragees - Fruit,7.74,540g (200 per pack),Halal
+candies,104,14,13269336,snacks--confectionery,Skittles Gummies - Yogurt,2.0,42.5g,
+candies,104,15,13035326,snacks--confectionery,Mentos Chewy Dragees - Mint,7.74,200 per pack,
+candies,104,16,13143031,snacks--confectionery,Mentos Chewy Dragees - Mint,2.29,3 x 37.5g,Halal
+candies,104,17,90022450,snacks--confectionery,Train Haw Jelly,4.1,300 G,
+candies,104,18,13264590,snacks--confectionery,Mumi Sweetened Flavoured Milk Tablets,1.0,12.5g,
+candies,104,19,90159123,snacks--confectionery,Mentos Mint - Chewy Dragees,4.25,135 G,
+candies,104,20,90123376,snacks--confectionery,Mentos Fruit Chewy Dragees Mentos,4.98,135 G,
+candies,104,21,13274214,snacks--confectionery,Kinder Milkredible Candy - Cocoa,4.6,105.3g,
+candies,104,22,90147751,snacks--confectionery,Mentos Mint & Fruity Assorted Flavours Chewy Dragees,7.98,405 G,
+candies,104,23,13274215,snacks--confectionery,Kinder Milkredible Candy - Milk,4.6,105.3g,
+beverages,89,1,13280708,drinks,[BCRS] Pokka Can Drink - Oolong Tea (No Sugar Added),7.75,12 x 300ml,Halal
+beverages,89,2,13281432,drinks,[BCRS] Maison Perrier Forever Sparkling Beverage - Lemon,17.55,10 x 250ml,
+beverages,89,3,13281660,drinks,[BCRS] Maison Perrier Forever Sparkling Beverage - Strawberry,17.55,10 x 250ml,
+beverages,89,4,13280982,drinks,[BCRS] Pokka Bottle Drink - Jasmine Green Tea,2.25,1.5L,Halal
+beverages,89,5,13281654,drinks,[BCRS] Maison Perrier Forever Sparkling Beverage - Lime,8.95,4 x 330ml,
+beverages,89,6,13281627,drinks,[BCRS] Maison Perrier Forever Sparkling Beverage - Peach,17.55,10 x 250ml,
+beverages,89,7,13281639,drinks,[BCRS] Maison Perrier Forever Sparkling Beverage - Lemon,8.95,4 x 330ml,
+beverages,89,8,10003037,drinks,Pokka Packet Drink - Jasmine Green Tea,3.6,6 x 250ml,Halal
+beverages,89,9,12700043,drinks,Milo Chocolate Malt Milk UHT Packet Drink,16.95,24 x 200ml (CTN),
+beverages,89,10,12714896,drinks,[BCRS] 100 Plus Isotonic Can Drink - Original,16.81,24 x 325ml,Halal
+beverages,89,11,13280991,drinks,[BCRS] Pokka Can Drink - Jasmine Green Tea,4.25,6 x 300ml,Halal
+beverages,89,12,13281050,drinks,[BCRS] Pokka Can Drink - Jasmine Green Tea,7.75,12 x 300ml (CTN),Halal
+beverages,89,13,13281379,drinks,[BCRS] Coca-Cola Mini Can Drink - Classic,5.25,6 x 180ml,Halal
+beverages,89,14,12714945,drinks,[BCRS] Fuze Tea Flavoured Tea Bottle Drink - Passionfruit,27.0,12 x 1.5L,Halal
+beverages,89,15,12714768,drinks,[BCRS] FairPrice Pure Drinking Bottle Water,7.2,24 x 600ml,
+beverages,89,16,12714947,drinks,[BCRS] Dasani Drinking Bottle Water,8.4,12 x 1.5L,
+beverages,89,17,12708770,drinks,Milo Chocolate Malt Milk UHT Packet Drink -Less Sugar,19.5,24 x 200ml (CTN),Halal
+beverages,89,18,12714946,drinks,[BCRS] Dasani Drinking Bottle Water,8.4,24 x 600ml (CTN),
+beverages,89,19,13281362,drinks,[BCRS] Coca-Cola Can Drink - Zero Sugar,8.75,12 x 320ml,
+beverages,89,20,12704723,drinks,Pokka Packet Drink - Oolong Tea (No Sugar Added),7.55,24 x 250ml (CTN),Halal
+beverages,89,21,12714758,drinks,[BCRS] Life Distilled Drinking Bottle Water,7.0,12 x 1.5L,
+beverages,89,22,13281412,drinks,[BCRS] Coca-Cola Mini Can Drink - Zero Sugar,5.25,6 x 180ml,Halal
+beverages,89,23,13281057,drinks,[BCRS] Coca-Cola Bottle Drink - Zero Sugar,2.6,1.5L,
+beverages,89,24,13281620,drinks,[BCRS] Coca-Cola Original Taste - Less Sugar,16.95,24 x 320ml,
+beverages,89,25,11520415,drinks,Marigold Packet Drink - Chrysanthemum Tea (LessSweet),8.8,24 x 250ml (CTN),Halal
+beverages,89,26,12714970,drinks,[BCRS] F & N Ice Mountain Drinking Bottle Water,9.85,24 x 600ml,Halal
+squash,54,1,90145601,fruits-vegetables,Agro Fresh Pumpkin - Whole,2.95,1 S,
+squash,54,2,90215551,fruits-vegetables,Agro Fresh Zucchini-Green,2.45,1 S,
+squash,54,3,90169109,fruits-vegetables,Yuan Zhen Yuan Japanese Pumpkin Seg Cut,5.95,1 KG,
+squash,54,4,90187575,fruits-vegetables,Yuan Zhen Yuan Zucchini Green,4.8,600 G,
+squash,54,5,90171165,fruits-vegetables,Yuan Zhen Yuan Butternut Pumpkin Seg Cut,5.34,500 G,
+squash,54,6,90089354,fruits-vegetables,ZENXIN Organic Pumpkin,5.6,300 G,Organic
+squash,54,7,90187570,fruits-vegetables,Yuan Zhen Yuan Butternut Pumpkin,7.9,1 KG,
+squash,54,8,90189718,fruits-vegetables,Yuan Zhen Yuan Zucchini Yellow,4.5,600 G,
+squash,54,9,90160955,fruits-vegetables,"Agro Fresh Hairy Gourd (Marrow, Fuzzy Squash)",2.98,550 G,
+squash,54,10,90183480,fruits-vegetables,Vegeponics Australia Pumpkin,5.0,500 G,
+squash,54,11,90104645,fruits-vegetables,Butternut Pumpkin,12.99,1 KG,
+squash,54,12,90240741,fruits-vegetables,FreshCo. Pumpkin,27.0,3.5 KG,
+squash,54,13,210790,drinks,Dragon Coin Fruit Cordial - Orange Squash,2.29,1L,Halal
+squash,54,14,90229128,household,ST-C Deodorizer For Garbage Bin - Menthol Squash,7.5,2 S,
+squash,54,15,90043132,electrical--lifestyle,Bush Squash Seeds,3.53,1 S,
+squash,54,16,90238872,fruits-vegetables,FreshCo. Chayote,2.3,350 G,
+squash,54,17,90130223,food-cupboard-6,Auga Organic Creamy Butternut Squash Soup with Sweet Potatoes,7.67,400 G,
+squash,54,18,13238540,snacks--confectionery,Skittles Squishy Clouds - Fruits,3.75,94g,
+squash,54,19,90215709,baby-child-toys,PlayDoh Starwars Squish n Slice Lightsabers Playset,29.9,1 S,
+crackers,76,1,11157740,snacks--confectionery,Hup Seng Crackers - Cream (Special),2.5,225g (10 per pack),
+crackers,76,2,12374819,snacks--confectionery,Hup Seng Crackers - Cream,2.5,428g,Halal
+crackers,76,3,12080992,snacks--confectionery,Julie's Crackers - Butter,2.94,250g,
+crackers,76,4,11178701,snacks--confectionery,Hup Seng Crackers - Sugar,2.5,225g (10 per pack),
+crackers,76,5,11157804,snacks--confectionery,Hup Seng Crackers - Wholemeal,2.5,225g (10 per pack),
+crackers,76,6,12465788,snacks--confectionery,Meiji Plain Crackers - Original,1.68,4 x 26g,
+crackers,76,7,13228021,snacks--confectionery,Meiji Plain Cracker - Oat,6.06,416g,Halal
+crackers,76,8,200494,snacks--confectionery,Ritz Crackers Box - Original,2.6,300g,
+crackers,76,9,13013282,snacks--confectionery,Munchy's Lexus Sandwich Calcium Crackers - Vegetable,3.63,200g,
+crackers,76,10,11031742,snacks--confectionery,Khong Guan Biscuits - Sultana,3.55,260g (10 per pack),
+crackers,76,11,12081063,snacks--confectionery,Julie's Crackers - Wheat,2.94,250g (10 per pack),
+crackers,76,12,13033320,snacks--confectionery,FairPrice Cream Crackers,1.85,220g (10 per pack),
+crackers,76,13,13228009,snacks--confectionery,Meiji Plain Cracker - Sesame,6.06,416g,Halal
+crackers,76,14,13241039,snacks--confectionery,Jacob's Weetameal Crackers,5.0,15 per pack,Halal
+crackers,76,15,11936234,snacks--confectionery,SkyFlakes Crackers - Original,3.03,250g,
+crackers,76,16,13289383,snacks--confectionery,FairPrice Crackers - Black Oat,1.45,104g,Halal
+crackers,76,17,13197832,snacks--confectionery,Ritz Toasted Chips - Sour Cream & Onion,4.9,229g,
+crackers,76,18,10522988,snacks--confectionery,Khong Guan Crackers - Cream,2.35,300g,
+crackers,76,19,13289398,snacks--confectionery,FairPrice Crackers - Original Plain,1.45,104g,Halal
+crackers,76,20,13216356,snacks--confectionery,Jacob's Cream Crackers Multipack - Original,5.0,504g,Halal
+pie,51,1,13177137,frozen,Farmpride Frozen Pizza - Margherita,5.25,210g,Halal
+pie,51,2,13033307,frozen,Dr Oetker Ristorante Pizza - Pepperoni,11.55,320g,Halal
+pie,51,3,12033504,frozen,Dr Oetker Ristorante Pizza - Hawaii,11.55,355g,Halal
+pie,51,4,13177140,frozen,Farmpride Stone Baked & Frozen Pizza - Truffle,5.25,215g,Halal
+pie,51,5,122961,frozen,Dr Oetker Ristorante Pizza - Quattro Formaggi,11.55,340g,
+pie,51,6,13167686,frozen,Dr.Oetker Ristorante Frozen Pizza - Margherita,11.55,295g,Halal
+pie,51,7,122929,frozen,Dr Oetker Ristorante Pizza - Spinach,11.55,390g,
+pie,51,8,122979,frozen,Dr Oetker Ristorante Pizza - Funghi,11.55,365g,
+pie,51,9,11056659,frozen,Sunshine Frozen Pizza - Hawaiian,7.74,340g (2 per pack),
+pie,51,10,10738957,frozen,Dr Oetker Ristorante Pizza - Mozzarella,11.55,355g,
+pie,51,11,11089864,frozen,FairPrice Frozen Pizza - Deluxe Cheese,6.85,300g (2 per pack),Halal
+pie,51,12,90072946,bakery,Orion Choco Pie 6p (Halal),2.3,180 G,
+pie,51,13,11056472,frozen,Sunshine Frozen Pizza - Mozzarella Cheese,7.74,240g (2 per pack),
+pie,51,14,11089936,frozen,FairPrice Frozen Pizza - Hawaiian,6.52,300g (2 per pack),Halal
+pie,51,15,13202159,bakery,Oreo Cadbury Choco Pie,3.65,168g,
+pie,51,16,90072944,bakery,Orion Custard Pie 6p (Halal),2.3,138 G,
+pie,51,17,11089979,frozen,FairPrice Frozen Pizza - Pepperoni,6.85,300g (2 per pack),Halal
+pie,51,18,13265795,bakery,Lotte Zero Choco Pie,7.2,336g,
+pie,51,19,13013193,frozen,Sunshine Frozen Pizza - BBQ Chicken,7.74,340g (2 per pack),Halal
+pie,51,20,13167204,bakery,Lotte Choco Pie - Cacao,2.86,6 per pack,
+veal,48,1,90031970,frozen,The Cellar Door Veal Stock - Frozen 1 KG,37.0,1 KG,
+veal,48,2,209280,frozen,Valley Chef Frozen Chicken Franks,4.5,340.2g,Halal
+veal,48,3,13112503,dairy-chilled-eggs,Tamar Valley Dairy Greek Style Yoghurt - Strawberry,2.97,110g,
+veal,48,4,13285373,household,FairPrice Bathroom Tissues - Value (2-Ply),2.95,10 X 160 per pack,
+veal,48,5,12603773,snacks--confectionery,Kinder Bueno Chocolate Wafer Bar - Milk T2x10 Valuepack,13.95,8 + 2 free per pack,
+veal,48,6,13129443,dairy-chilled-eggs,Tamar Valley Dairy Kids Greek Style Yoghurt - Blueberry,2.97,110g,
+veal,48,7,13112504,dairy-chilled-eggs,Tamar Valley Dairy Kids Greek Style Yoghurt - Tropical,2.97,110g,
+veal,48,8,13171278,dairy-chilled-eggs,Tamar Valley Dairy Greek Style Yoghurt - Raspberry,2.97,110g,
+veal,48,9,13112505,dairy-chilled-eggs,Tamar Valley Dairy Kids Greek Style Yoghurt - Vanilla,2.97,110g,
+veal,48,10,13067851,household,UIC Big Value Detergent Powder - Anti Bacterial (Citrus Splash),2.29,1kg,
+veal,48,11,13013715,household,UIC Big Value Liquid Detergent Refill - Floral,4.1,1.6kg,
+veal,48,12,12104114,household,UIC Big Value Detergent Powder - Anti-Bacterial,9.37,5kg,
+veal,48,13,12104472,household,UIC Big Value Detergent Powder - Regular (Floral Fruity),9.37,5kg,
+veal,48,14,13225033,electrical--lifestyle,Energizer Max Battery Value Pack - AA (15+5),22.31,20 per pack,
+veal,48,15,13013712,household,UIC Big Value Concentrated Liquid Detergent Refill-Anti-Bacterial,4.1,1.6kg,
+veal,48,16,90012070,household,MTRADE Medium White Plastic Bag with Print Value Pack,1.8,240 G,
+veal,48,17,13067850,household,UIC Big Value Detergent Powder - Regular (Floral Fruity),2.29,1kg,
+veal,48,18,13013716,household,UIC Big Value Liquid Detergent Refill - Colour Care,4.1,1.6L,
+veal,48,19,12698741,household,UIC Big Value Dishwashing Liquid Refill - Lime,1.43,600ml,
+veal,48,20,13213032,food-cupboard-6,Nature Valley Crunchy Granola Bar - Variety,5.96,210g,Halal
+beverage,42,1,13280708,drinks,[BCRS] Pokka Can Drink - Oolong Tea (No Sugar Added),7.75,12 x 300ml,Halal
+beverage,42,2,12700043,drinks,Milo Chocolate Malt Milk UHT Packet Drink,16.95,24 x 200ml (CTN),
+beverage,42,3,10125966,drinks,Pokka Packet Drink -  Green Tea,11.9,24 x 250ml (CTN),Halal
+beverage,42,4,13280982,drinks,[BCRS] Pokka Bottle Drink - Jasmine Green Tea,2.25,1.5L,Halal
+beverage,42,5,12714896,drinks,[BCRS] 100 Plus Isotonic Can Drink - Original,16.81,24 x 325ml,Halal
+beverage,42,6,13281379,drinks,[BCRS] Coca-Cola Mini Can Drink - Classic,5.25,6 x 180ml,Halal
+beverage,42,7,12714768,drinks,[BCRS] FairPrice Pure Drinking Bottle Water,7.2,24 x 600ml,
+beverage,42,8,10003037,drinks,Pokka Packet Drink - Jasmine Green Tea,3.6,6 x 250ml,Halal
+beverage,42,9,12714947,drinks,[BCRS] Dasani Drinking Bottle Water,8.4,12 x 1.5L,
+beverage,42,10,12708770,drinks,Milo Chocolate Malt Milk UHT Packet Drink -Less Sugar,19.5,24 x 200ml (CTN),Halal
+beverage,42,11,13280991,drinks,[BCRS] Pokka Can Drink - Jasmine Green Tea,4.25,6 x 300ml,Halal
+beverage,42,12,13281050,drinks,[BCRS] Pokka Can Drink - Jasmine Green Tea,7.75,12 x 300ml (CTN),Halal
+beverage,42,13,10020227,drinks,Yeo's Packet Drink - Chrysanthemum Tea (Not So Sweet),11.6,24 x 250ml (CTN),Halal
+beverage,42,14,12714945,drinks,[BCRS] Fuze Tea Flavoured Tea Bottle Drink - Passionfruit,27.0,12 x 1.5L,Halal
+beverage,42,15,12714946,drinks,[BCRS] Dasani Drinking Bottle Water,8.4,24 x 600ml (CTN),
+beverage,42,16,13281362,drinks,[BCRS] Coca-Cola Can Drink - Zero Sugar,8.75,12 x 320ml,
+beverage,42,17,12704723,drinks,Pokka Packet Drink - Oolong Tea (No Sugar Added),7.55,24 x 250ml (CTN),Halal
+beverage,42,18,12714758,drinks,[BCRS] Life Distilled Drinking Bottle Water,7.0,12 x 1.5L,
+beverage,42,19,13281412,drinks,[BCRS] Coca-Cola Mini Can Drink - Zero Sugar,5.25,6 x 180ml,Halal
+beverage,42,20,13281057,drinks,[BCRS] Coca-Cola Bottle Drink - Zero Sugar,2.6,1.5L,
+babyfood,46,1,12302241,baby-child-toys,"Rafferty's Garden Baby Food - Blueberry, Banana & Apple",3.48,120g,
+babyfood,46,2,13198051,baby-child-toys,Gerber Puree Baby Food After 6 Months - Prunes,2.11,80g,
+babyfood,46,3,13018597,baby-child-toys,Rafferty's Garden Baby Food - Pear & Superberries,3.48,120g,
+babyfood,46,4,12441276,baby-child-toys,Rafferty's Garden Baby Food - Pear & Apricot,3.48,120g,
+babyfood,46,5,12302292,baby-child-toys,"Rafferty's Garden Baby Food - Pumpkin, Apple & Sweetcorn",3.48,120g,
+babyfood,46,6,13233732,baby-child-toys,Rafferty's Garden Baby Food Puree - Summer Fruits & Quinoa,3.48,120g,
+babyfood,46,7,12302321,baby-child-toys,"Rafferty's Garden Baby Food - Spinach, Apple, Broccoli & Pea",3.48,120g,
+babyfood,46,8,13198052,baby-child-toys,Gerber Puree Baby Food After 6 Months - Applesauce,2.11,80g,
+babyfood,46,9,13233632,baby-child-toys,"Rafferty's Garden Baby Food - Brown Rice, Bean & Pumpkin",3.48,120g,
+babyfood,46,10,13191857,baby-child-toys,Ddoddomam Baby Rice Stick - Vegetable,6.31,20g,
+babyfood,46,11,12302217,baby-child-toys,"Rafferty's Garden Baby Food - Apple, Pear & Cinnamon",3.48,120g,
+babyfood,46,12,13230373,baby-child-toys,"Organix Puree Pouch - Oatmeal,Apple,Banana,Raspberry&Blueberry",5.3,100g,Organic
+babyfood,46,13,13241982,baby-child-toys,Gerber Organic Pouch Puree - Pear Mango Avocado,5.55,99g,Organic
+babyfood,46,14,13186731,baby-child-toys,"Gerber Organic Gentle Teethers Wafers - Mango, Banana, Carrot",11.46,48g,Organic
+babyfood,46,15,13179562,baby-child-toys,Gerber Organic Baby Cereal - Oatmeal Banana,11.46,227g,Organic
+babyfood,46,16,13126813,baby-child-toys,Bellamy's Organic Ready to Eat Baby Food - Apple & Fig Oatmeal,5.3,120g,Organic
+babyfood,46,17,13186732,baby-child-toys,Gerber Organic Gentle Teethers Wafers - Blueberry Apple Beet,11.46,48g,Organic
+babyfood,46,18,13230375,baby-child-toys,"Organix Fruit Puree Pouch - Apple, Strawberry & Blueberry",5.3,100g,Organic
+babyfood,46,19,13126817,baby-child-toys,Bellamy's Organic Ready to Eat Baby Food - Banana Apple Porridge,5.3,120g,Organic
+babyfood,46,20,13230372,baby-child-toys,"Organix Fruit Puree Pouch - Mango, Pear & Granola",5.3,100g,Organic
+pretzels,43,1,491837,snacks--confectionery,Mitsuya Tasty Biscuit Stick,1.9,40g,
+pretzels,43,2,297756,snacks--confectionery,Meiji Yan Yan Stick Biscuits - Chocolate,1.37,50g,
+pretzels,43,3,13072764,snacks--confectionery,Glico Pocky Biscuit Sticks Share Pack - Chocolate,4.89,8 x 22g,Halal
+pretzels,43,4,475469,snacks--confectionery,Meiji Yan Yan Stick Biscuits - Chocolate & Strawberry,1.37,44g,
+pretzels,43,5,13072765,snacks--confectionery,Glico Pocky Biscuit Sticks Share Pack - Strawberry,4.89,8 x 21g,Halal
+pretzels,43,6,297764,snacks--confectionery,Meiji Yan Yan Stick Biscuits - Strawberry,1.37,50g,
+pretzels,43,7,12128845,snacks--confectionery,Meiji Yan Yan Stick Biscuits - Choco-Hazelnut,1.37,44g,
+pretzels,43,8,12403819,snacks--confectionery,Meiji Yan Yan Stick Biscuits - Tsukebo Chocolate (Double Dip),1.37,48g,
+pretzels,43,9,435950,snacks--confectionery,Meiji Yan Yan Stick Biscuits - Vanilla,1.37,50g,
+pretzels,43,10,13078118,snacks--confectionery,Glico Pocky Biscuit Sticks - Chocolate,1.43,47g,
+pretzels,43,11,13221380,snacks--confectionery,Meiji Lucky Biscuit Stick - Strawberry,2.7,120g,Halal
+pretzels,43,12,10720183,snacks--confectionery,Pepperidge Farm Goldfish Baked Snack Crackers - Colors,5.6,187g,
+pretzels,43,13,13061918,snacks--confectionery,Nutella & Go Biscuit,2.8,48g,
+pretzels,43,14,11932495,snacks--confectionery,Pepperidge Farm Goldfish Baked Crackers - Cheddar,5.6,187g,
+pretzels,43,15,13193455,snacks--confectionery,Lotte Pepero Stick Biscuits - Strawberry,1.75,32g,
+pretzels,43,16,13158679,snacks--confectionery,Glico Pretz Stick Biscuit - Pizza,0.97,31g,Halal
+pretzels,43,17,13267991,snacks--confectionery,Glico Pocky Biscuit Sticks - Milk,1.0,40g,Halal
+pretzels,43,18,13008823,snacks--confectionery,Meiji Lucky Biscuit Stick - Chocolate,2.7,8 x 15g,Halal
+pretzels,43,19,13072166,snacks--confectionery,Meiji Printed Biscuits - Dinoland,1.37,70g,
+pretzels,43,20,13150320,snacks--confectionery,Glico Pocky Family Pack Biscuit Sticks - Cookies & Cream,4.89,8 per pack,
+cheeseburger,26,1,13267070,dairy-chilled-eggs,Cowhead Triple Pack Cheese - Burger Cheddar,6.95,3 x 200g,Halal
+candy,40,1,13083487,snacks--confectionery,Skittles Candies - Original (Fun Size Bag),5.14,10 x 15g,Halal
+candy,40,2,12683443,snacks--confectionery,M&M's Chocolate Candies - Milk (Funsize),7.8,175.5g (13 per pack),
+candy,40,3,12683670,snacks--confectionery,M&M's Chocolate Candies - Peanut (Funsize),7.8,175.5g (13 per pack),
+candy,40,4,13269335,snacks--confectionery,Skittles Gummies - Fruit,2.0,42.5g,
+candy,40,5,225830,snacks--confectionery,Mentos Chewy Dragees - Mint (Share- A-Bowl),1.9,135g,
+candy,40,6,13068973,snacks--confectionery,Haribo Gummy Candies - Goldbears,4.99,200g,Halal
+candy,40,7,13096780,snacks--confectionery,Yupi Gummy Candies - Burger,1.58,84g,Halal
+candy,40,8,13240793,snacks--confectionery,Eclipse Plus Soothing Herbal Mint - Loquat Pear,3.85,30g,
+candy,40,9,13249621,snacks--confectionery,Hi-Chew Chewy Candy - Grape and Green Apple,2.8,100g,
+candy,40,10,12267167,snacks--confectionery,Chupa Chups Lollipops - Mini,3.56,150g (25 per pack),Halal
+candy,40,11,11583571,snacks--confectionery,Wrigley's Eclipse Sugar Free Mints Candy - Spearmint,3.84,35g,
+candy,40,12,13052399,snacks--confectionery,Wrigley's Eclipse Sugar Free Mints Candy - Berry,3.84,35g,Halal
+candy,40,13,10083452,7th-month-festival-1,Yupi Gummy Candies - Baby Bears,1.58,120g,
+candy,40,14,13269336,snacks--confectionery,Skittles Gummies - Yogurt,2.0,42.5g,
+candy,40,15,13250100,snacks--confectionery,Hi-Chew Chewy Candy - Grape and Strawberry,2.8,100g,
+candy,40,16,13250090,snacks--confectionery,Hi-Chew Chewy Candy - Grape and Peach and Lychee,2.8,100g,
+candy,40,17,13195497,snacks--confectionery,M&M's Chocolate Candies - Crispy (Funsize),7.8,12 per pack,
+candy,40,18,13187918,snacks--confectionery,Himalaya Salt Sports Candy - Honey Lime,1.01,15g,Halal
+candy,40,19,10083778,snacks--confectionery,Yupi Gummy Candies - Strawberry Kiss,1.58,120g,
+candy,40,20,13023349,snacks--confectionery,Mentos Mini Chewy Dragees - Rainbow,1.9,120g,
+candy,40,21,10083698,snacks--confectionery,Yupi Gummy Candies - Apple Rings,1.58,120g,
+candy,40,22,11066830,snacks--confectionery,Wrigley's Eclipse Sugar Free Mints Candy - Peppermint,3.84,35g,
+candy,40,23,231548,snacks--confectionery,Storck Mint Chocos Candies,4.02,200g,
+hamburger,27,1,90251382,rice-noodles-cooking-ingredients,Ikari Kakeru Japanese Hamburger & Steak Sauce Squeeze Bottle,7.6,290 G,
+hamburger,27,2,90247078,rice-noodles-cooking-ingredients,Otafuku Hamburger Sauce,8.55,200 G,
+hamburger,27,3,90227128,household,RedMan Hamburger Tray,56.0,1 S,
+hamburger,27,4,90228471,household,San Neng Hamburger Tray (675X435X362mm),44.8,1 S,
+hamburger,27,5,90226135,household,"RedMan Hamburger Bun Pan - 4"" (SN1618)",41.6,1 S,
+hamburger,27,6,90245071,electronics-5,ROCK Lulu The Piggy Silicone Earphone Bag - Hamburger,27.0,1 S,
+hamburger,27,7,90120131,electrical--lifestyle,Puku Multi Use Neoprene Money Pouch - Hamburger,16.9,,
+hamburger,27,8,90228702,household,RedMan Hamburger Wrapper with Prints,5.6,100 S,
+hamburger,27,9,1,household,RedMan Hamburger Wrapper,4.0,100 S,
+muffin,37,1,13253779,bakery,Treats Muffin - Chocolate Chips,1.3,60g,Halal
+muffin,37,2,13253780,bakery,Treats Muffin - Double Chocolate,1.3,60g,Halal
+muffin,37,3,13253782,bakery,Treats Chocolate Muffin - Salted Caramel,1.3,60g,Halal
+muffin,37,4,90039037,bakery,Delyco Vanilla Muffin - Bundle of 2,7.05,2 x 230 G,
+muffin,37,5,90039036,bakery,Delyco Banana Muffin - Bundle of 2,7.05,2 x 230 G,
+muffin,37,6,90039187,bakery,Delyco Chocolate Muffin - Bundle of 2,7.05,2 x 230 G,
+muffin,37,7,90039188,bakery,Delyco Pandan Muffin - Bundle of 2,7.05,2 x 230 G,
+muffin,37,8,13097419,rice-noodles-cooking-ingredients,Betty Crocker Muffin Mix - Chocolate Chip,4.99,430g,Halal
+muffin,37,9,13026090,snacks--confectionery,Pepperidge Farm Goldfish Baked Grahams - Vanilla Cupcake,5.6,187g,
+muffin,37,10,90216389,household,NoStik Silicon Muffin Liner - Brown,29.95,12 S,
+muffin,37,11,90202946,baby-child-toys,On Line Kids Detangling Spray - Muffin,6.9,200 ML,
+muffin,37,12,90202295,electrical--lifestyle,Dodomu Mermaid Cupcake Border,13.0,24 S,
+muffin,37,13,13247439,unity-1,Nivea Lip Balm Cherry Cupcake - Minnie,5.0,4.8g,
+muffin,37,14,90184572,household,BEST Choice Lovely Printed Muffin Cake Cup Liner (M),6.9,20 PC,
+muffin,37,15,90223289,rice-noodles-cooking-ingredients,Yes You Can Cupcake Mix - Red Velvet,11.2,450 G,
+muffin,37,16,90245093,household,BEST Choice Starry Printed Muffin Cake Cup Liners,6.9,20 S,
+muffin,37,17,90184571,household,BEST Choice Sweet Printed Muffin Cake Cup Liner (M),6.9,20 PC,
+muffin,37,18,90184570,household,BEST Choice Baker Pattern Muffin Cake Cup Liner (M),6.9,20 PC,
+muffin,37,19,90135990,household,Best Choice Floral Printed Muffin Cake Cup Liners,6.9,20 S,
+muffin,37,20,90135986,household,Best Choice Pattern Printed Muffin Cake Cup Liners,6.9,20 S,
+dip,31,1,90167094,snacks--confectionery,"Santa Maria Dip Nachos Cheese Style, 250G",6.9,250 G,
+dip,31,2,13209203,snacks--confectionery,Chris Dip & Spread - Hommus,6.9,200g,
+dip,31,3,13017957,snacks--confectionery,California Creamery Nacho Cheese Sauce,7.03,4 x 99g,
+dip,31,4,90214035,snacks--confectionery,Santa Maria Chunky Salsa - Hot,5.6,230 G,
+dip,31,5,12529040,snacks--confectionery,La Costena Salsa Dip - Hot,5.3,453g,
+dip,31,6,12529032,snacks--confectionery,La Costena Salsa Dip - Medium,5.3,453g,
+dip,31,7,13084858,snacks--confectionery,Tostitos Salsa Dip - Chunky Habanero (Hot),7.74,439.4g,
+dip,31,8,1,snacks--confectionery,Santa Maria Dip Tex Mex Style (Guacamole),6.9,250 G,
+dip,31,9,90014927,snacks--confectionery,Biona Organic Salsa Dip Sauce - Mild,7.11,260 G,
+dip,31,10,90217626,snacks--confectionery,Casa del Sur Guacamole Salsa,4.45,300 G,
+dip,31,11,90217624,snacks--confectionery,Casa del Sur Mexicana Salsa,8.1,315 G,
+dip,31,12,90040819,snacks--confectionery,Simply Organic Spices Turmeric,8.91,67 G,
+dip,31,13,90217651,snacks--confectionery,Casa del Sur Chesse Salsa,8.1,300 G,
+dip,31,14,90040818,snacks--confectionery,Simply Organic Garam Masala,17.95,85 G,Organic
+dip,31,15,90028426,snacks--confectionery,Kitchen & Love Piquillo & Artichoke Bruschetta,9.12,225 G,
+dip,31,16,90014643,snacks--confectionery,Kitchen & Love Artichoke Bruschetta,9.12,225 G,
+dip,31,17,90231592,snacks--confectionery,"Tenuta Fragassi Bruschetta with Dried Tomatoe, Olives & Caper",7.74,145 G,
+dip,31,18,90014642,snacks--confectionery,Kitchen & Love Olive Medley Bruschetta,9.12,225 G,
+dip,31,19,90231564,snacks--confectionery,Tenuta Fragassi Asparagus Bruschetta,7.74,145 G,
+dip,31,20,90040820,snacks--confectionery,Simply Organic Spices Cilantro,9.41,22 G,Organic
+popcorn,29,1,13176264,snacks--confectionery,Cobs Natural Popcorn - Lightly Salted Slightly Sweet,4.2,120g,
+popcorn,29,2,13268080,snacks--confectionery,Orville Popcorn - Movie Theater Butter,5.7,279.9g,
+popcorn,29,3,13057867,snacks--confectionery,Orville Redenbacher's Gourmet Popping Corn - Naturals,5.7,3 x 93.3g,
+popcorn,29,4,13186829,snacks--confectionery,FairPrice Sweet Popcorn,2.55,180g,Halal
+popcorn,29,5,11698117,snacks--confectionery,Poppin Microwave Popcorn - Butter,2.7,100g,
+popcorn,29,6,13176269,snacks--confectionery,Cobs Natural Popcorn - Cheddar Cheese,4.2,100g,
+popcorn,29,7,13078390,snacks--confectionery,Poppin Microwave Popcorn - Butter Flavour (Lite),2.7,85g,
+popcorn,29,8,13168675,snacks--confectionery,Movietime Flavored Popcorn - Sweet & Salty,6.41,100g,
+popcorn,29,9,13144993,snacks--confectionery,Eureka Popcorn - Classic Caramel,4.69,80g,
+popcorn,29,10,13144977,snacks--confectionery,Eureka Popcorn - Savoury Cheese,4.69,80g,
+popcorn,29,11,13156298,snacks--confectionery,Eureka Popcorn - Golden Salted Egg,4.69,80g,
+popcorn,29,12,13255016,snacks--confectionery,Candy POP Popcorn - M&M Minis,8.95,149ml,
+popcorn,29,13,90249578,snacks--confectionery,Eng's Popcorn Strawberry,1.8,80 G,Halal
+popcorn,29,14,90072576,snacks--confectionery,Makhanawalas Makhanawalas Roasted Makhana Cream & onion,5.95,60 G,
+popcorn,29,15,13266401,snacks--confectionery,Peanut Butter & Jelly Pop Smuckers & Jif Popcorns - Strawberry,8.95,149g,
+popcorn,29,16,13255018,snacks--confectionery,Cookie Pop Popcorn - Oreo,8.95,149g,
+popcorn,29,17,90044301,snacks--confectionery,Natures Choice Premium Quality Popcorn,4.4,500 G,
+popcorn,29,18,90042785,snacks--confectionery,Serious Food Company Serious Popcorn - Sea Salt Multipack,7.05,120 G,
+popcorn,29,19,1,snacks--confectionery,Serious Food Company - Sugar Free Salted Caramel Multipack,5.75,60 G,
+popcorn,29,20,90200591,snacks--confectionery,Serious Food Sugar Free Popcorn - Sweet & Salty (Multipack),5.75,60 G,
+water,26,1,12714947,drinks,[BCRS] Dasani Drinking Bottle Water,8.4,12 x 1.5L,
+water,26,2,12714767,drinks,[BCRS] FairPrice Pure Drinking Water,6.5,12 x 1.5L,
+water,26,3,12714768,drinks,[BCRS] FairPrice Pure Drinking Bottle Water,7.2,24 x 600ml,
+water,26,4,12714946,drinks,[BCRS] Dasani Drinking Bottle Water,8.4,24 x 600ml (CTN),
+water,26,5,12714758,drinks,[BCRS] Life Distilled Drinking Bottle Water,7.0,12 x 1.5L,
+water,26,6,12714766,housebrand-1,[BCRS] FairPrice Pure Drinking Bottle Water,7.0,24 x 330ml,
+water,26,7,12714970,drinks,[BCRS] F & N Ice Mountain Drinking Bottle Water,9.85,24 x 600ml,Halal
+water,26,8,13281598,drinks,[BCRS] Evian Sparkling Can Water,6.95,4 x 330ml,
+water,26,9,13280995,drinks,[BCRS] HSC Sparkling Oldenlandia Can Water,4.0,6 x 325ml,
+water,26,10,12714887,drinks,[BCRS] F & N Ice Mountain Drinking Bottle Water,9.85,12 x 1.5L,
+water,26,11,12715103,drinks,[BCRS] Evian Sparkling Can Water,39.95,24 x 330ml,
+water,26,12,13281465,drinks,[BCRS] F & N Ice Mountain Sparkling Can Water - Lemon (No Sugar),5.2,6 x 325ml,Halal
+water,26,13,13281509,drinks,[BCRS] Evian Natural Mineral Bottle Water,17.75,6 x 1.5L,
+water,26,14,12715145,drinks,[BCRS] Evian Natural Mineral Bottle Water,25.95,330ml x 24S,
+water,26,15,12714761,drinks,[BCRS] FairPrice Natural Mineral Bottle Water,7.4,12 x 1.5L,Halal
+water,26,16,12714759,drinks,[BCRS] FairPrice Natural Mineral Bottle Water,8.7,24 x 550ml,
+water,26,17,12715120,drinks,[BCRS] Evian Natural Mineral Bottle Water,29.75,12 x 1.5L (CTN),
+water,26,18,12714884,drinks,[BCRS] F & N Can Drink - Soda Water (Slim),14.55,24 x 325ml,
+water,26,19,13281658,drinks,[BCRS] F & N Sparkling Zero Can - Korean Peach,5.2,6 x 325ml,Halal
+water,26,20,12712991,drinks,Chang Soda Water - Sparkling,18.41,24 x 325ml (CTN),
+ravioli,22,1,13154794,rice-noodles-cooking-ingredients,Arrighi Ravioli Pasta - Al Formaggio,7.95,250g,
+biscuit,24,1,13262808,snacks--confectionery,Nutella Biscuits,4.95,193.2g,Halal
+biscuit,24,2,11157740,snacks--confectionery,Hup Seng Crackers - Cream (Special),2.5,225g (10 per pack),
+biscuit,24,3,491837,snacks--confectionery,Mitsuya Tasty Biscuit Stick,1.9,40g,
+biscuit,24,4,12083675,snacks--confectionery,Julie's Sandwich Biscuits - Peanut Butter,5.6,360g (12 per pack),
+biscuit,24,5,13160723,snacks--confectionery,Ritz Sandwich Biscuits Multipack - Cheese Cream,3.0,243g,Halal
+biscuit,24,6,12374819,snacks--confectionery,Hup Seng Crackers - Cream,2.5,428g,Halal
+biscuit,24,7,10797324,snacks--confectionery,Khong Guan Sandwich Biscuits - Lemon Puff,2.8,260g (12 per pack),
+biscuit,24,8,13021967,snacks--confectionery,Khong Guan Biscuits - Marie (Premium),2.5,260g (12 per pack),Halal
+biscuit,24,9,12080992,snacks--confectionery,Julie's Crackers - Butter,2.94,250g,
+biscuit,24,10,327454,snacks--confectionery,Meiji Hello Panda Biscuits - Chocolate,6.67,234g (9 x 26g),
+biscuit,24,11,13034311,snacks--confectionery,Khong Guan Bite Sizes Biscuits - Fancy Gems,1.6,110g,Halal
+biscuit,24,12,10397654,snacks--confectionery,Khong Guan Assortment Biscuits - Family Pack,4.5,600g,Halal
+biscuit,24,13,11178701,snacks--confectionery,Hup Seng Crackers - Sugar,2.5,225g (10 per pack),
+biscuit,24,14,12234429,snacks--confectionery,Meiji Hello Panda Biscuits - Assorted,6.67,234g,Halal
+biscuit,24,15,11157804,snacks--confectionery,Hup Seng Crackers - Wholemeal,2.5,225g (10 per pack),
+biscuit,24,16,13212611,snacks--confectionery,Oreo Sandwich Cookies Multipack - Mildly Sweet,3.05,248.4g,Halal
+biscuit,24,17,297756,snacks--confectionery,Meiji Yan Yan Stick Biscuits - Chocolate,1.37,50g,
+biscuit,24,18,13021988,snacks--confectionery,Khong Guan Assortment Biscuits - Grade 1,3.6,800g,
+biscuit,24,19,12465788,snacks--confectionery,Meiji Plain Crackers - Original,1.68,4 x 26g,
+biscuit,24,20,13228021,snacks--confectionery,Meiji Plain Cracker - Oat,6.06,416g,Halal
+muffins,20,1,13253779,bakery,Treats Muffin - Chocolate Chips,1.3,60g,Halal
+muffins,20,2,13253780,bakery,Treats Muffin - Double Chocolate,1.3,60g,Halal
+muffins,20,3,13253782,bakery,Treats Chocolate Muffin - Salted Caramel,1.3,60g,Halal
+muffins,20,4,90039037,bakery,Delyco Vanilla Muffin - Bundle of 2,7.05,2 x 230 G,
+muffins,20,5,90039036,bakery,Delyco Banana Muffin - Bundle of 2,7.05,2 x 230 G,
+muffins,20,6,90039187,bakery,Delyco Chocolate Muffin - Bundle of 2,7.05,2 x 230 G,
+muffins,20,7,90039188,bakery,Delyco Pandan Muffin - Bundle of 2,7.05,2 x 230 G,
+muffins,20,8,13097419,rice-noodles-cooking-ingredients,Betty Crocker Muffin Mix - Chocolate Chip,4.99,430g,Halal
+muffins,20,9,90216389,household,NoStik Silicon Muffin Liner - Brown,29.95,12 S,
+muffins,20,10,90202946,baby-child-toys,On Line Kids Detangling Spray - Muffin,6.9,200 ML,
+muffins,20,11,90184572,household,BEST Choice Lovely Printed Muffin Cake Cup Liner (M),6.9,20 PC,
+muffins,20,12,90245093,household,BEST Choice Starry Printed Muffin Cake Cup Liners,6.9,20 S,
+muffins,20,13,90184571,household,BEST Choice Sweet Printed Muffin Cake Cup Liner (M),6.9,20 PC,
+muffins,20,14,90184570,household,BEST Choice Baker Pattern Muffin Cake Cup Liner (M),6.9,20 PC,
+muffins,20,15,90135990,household,Best Choice Floral Printed Muffin Cake Cup Liners,6.9,20 S,
+muffins,20,16,90135986,household,Best Choice Pattern Printed Muffin Cake Cup Liners,6.9,20 S,
+muffins,20,17,90135987,household,BEST Choice Cute Printed Muffin Cake Cup Liners,6.9,20 PC,
+muffins,20,18,90148444,household,BEST Choice Pink Muffin Cake Cup Cases,6.3,20 PC,
+muffins,20,19,90148443,household,BEST Choice Yellow Muffin Cake Cup Cases,6.3,20 PC,
+muffins,20,20,90148442,household,BEST Choice Green Muffin Cake Cup Cases,6.3,20 PC,
+soymilk,25,1,13164521,drinks,Nestle Omega Plus Adult Ready to Drink Milk,6.0,6 x 200ml,Halal
+soymilk,25,2,10553397,dairy-chilled-eggs,F & N NutriSoy High Calcium Fresh Soya Milk - Reduced Sugar,2.77,946ml,
+soymilk,25,3,11160106,dairy-chilled-eggs,F & N NutriSoy High Calcium Fresh Soya Milk - Omega (No Sugar Added),2.97,946ml,Halal
+soymilk,25,4,12709340,drinks,Nestle Omega Plus Adult Ready to Drink Milk,21.05,24 x 200ml (CTN),Halal
+soymilk,25,5,13148892,dairy-chilled-eggs,F & N NutriSoy High Calcium Fresh Soya Milk - No Sugar Added,2.77,946ml,
+soymilk,25,6,13024479,dairy-chilled-eggs,Marigold Power Beans Fresh Soya Milk - Unsweetened,2.34,946ml,Halal
+soymilk,25,7,457912,dairy-chilled-eggs,F & N NutriSoy High Calcium Fresh Soya Milk - Regular,2.77,946ml,
+soymilk,25,8,13281537,drinks,[BCRS] Magnolia High Protein Milk - Chocolate,4.75,375ml,Halal
+soymilk,25,9,13292377,dairy-chilled-eggs,F & N NutriSoy High Calcium Fresh Soya Milk - Matcha Latte,2.97,946ml,Halal
+soymilk,25,10,13024475,dairy-chilled-eggs,Marigold Power Beans Fresh Soya Milk - Reduced Sugar,2.34,946ml,Halal
+soymilk,25,11,13281536,drinks,[BCRS] Magnolia High Protein Milk - Vanilla,4.75,375ml,Halal
+soymilk,25,12,13024477,dairy-chilled-eggs,Marigold Power Beans Fresh Soya Milk - Reduced Sugar Almond,2.34,946ml,Halal
+soymilk,25,13,13229976,dairy-chilled-eggs,Yeo's Packet Drink - Brown Sugar Soy Milk,2.75,6 x 250ml,Halal
+soymilk,25,14,13196987,dairy-chilled-eggs,Marigold Power Beans Fresh Soya Milk,2.34,946ml,Halal
+soymilk,25,15,13230351,dairy-chilled-eggs,Yeo's Packet Drink - Brown Sugar Soy Milk,1.85,1L,Halal
+soymilk,25,16,90146549,dairy-chilled-eggs,Kirei Marusan Premium Peach Soy Milk,2.6,200 ML,
+soymilk,25,17,90146547,dairy-chilled-eggs,Kirei Marusan Marusan Premium Soy Milk,2.6,200 ML,
+soymilk,25,18,90048890,dairy-chilled-eggs,Marusan Soybean Milk Matcha With 50-Percent Reduced Calories,2.95,200 ML,
+soymilk,25,19,90142349,dairy-chilled-eggs,MARUSAN Marusan Oat Soy Milk,2.95,200 ML,
+soymilk,25,20,90142350,dairy-chilled-eggs,Marusan Oat Soy Milk,9.58,1 L,
+soymilk,25,21,90185002,dairy-chilled-eggs,Marusanai Soy Milk - Banana,7.72,1 L,
+soymilk,25,22,90242410,dairy-chilled-eggs,Otsuka Sugou Original Soybean-Small,3.15,200 ML,
+soymilk,25,23,90214307,dairy-chilled-eggs,Marusan Japanese Sweetened Soy Milk,2.95,200 ML,
+soymilk,25,24,90117660,dairy-chilled-eggs,Vitamik Original Soy Milk Twist Cap 6's,7.25,0,
+waffle,22,1,13258403,bakery,Eggo Homestyle Waffles,6.85,349g,
+waffle,22,2,13190057,bakery,Cowhead Waffles - Original Belgium,5.3,200g (4 per pack),Halal
+waffle,22,3,13174343,food-cupboard-6,Post Cereals - Waffle Crisp,7.52,326g,
+waffle,22,4,13067408,bakery,Kellogg's Eggo Frozen Waffles - Buttermilk,6.85,10 per pack,
+waffle,22,5,13229935,snacks--confectionery,Redondo Creme Waffle Sticks - Cookies & Creme,3.85,300g,Halal
+waffle,22,6,13229933,snacks--confectionery,Redondo Creme Waffle Sticks - Vanilla,3.85,300g,Halal
+waffle,22,7,13229934,snacks--confectionery,Redondo Creme Waffle Sticks - Strawberry,4.3,300g,Halal
+waffle,22,8,13067415,bakery,Kellogg's Eggo Frozen Waffles - Blueberry,6.85,10 per pack,
+waffle,22,9,13265984,snacks--confectionery,Good Today Butter Waffle,4.95,180g,
+waffle,22,10,12146955,snacks--confectionery,Aladdin Danish Deluxe Waffle Cones,4.03,148g (8 per pack),
+waffle,22,11,13067420,bakery,Kellogg's Eggo Frozen Waffles - Chocolatey Chip,6.85,10 per pack,
+waffle,22,12,13094139,bakery,Kellogg's Eggo Frozen Waffles - Strawberry,6.85,10 per pack,
+waffle,22,13,90104359,frozen,Kirei Taiyaki Waffle Japanese Ice Cream,4.9,130 ML,
+waffle,22,14,13250931,food-cupboard-6,Slurrp Pancake & Waffle Mix - Blueberry,6.9,150g,
+waffle,22,15,90207919,snacks--confectionery,Julie's Coffee Waffles,3.3,100 G,Halal
+waffle,22,16,90207924,snacks--confectionery,Julie's Coconut Waffles,3.3,100 G,Halal
+waffle,22,17,90092254,frozen,CB Waffle Fries,6.5,1 KG,
+waffle,22,18,90202074,frozen,Punched Foods Criss-Cut Waffle Fries,9.8,1 KG,
+waffle,22,19,90227008,food-cupboard-6,Bob's Red Mill Pancake & Waffle Mix - Whole Grain Buttermilk,10.4,680 G,
+waffle,22,20,90223570,food-cupboard-6,Bob's Red Mill Pancake & Waffle Mix - 10 Grain,8.0,680 G,
+sub,23,1,13183876,fruits-vegetables,Altamura Foglia Sublime Leaves - Mesclun Mix,5.3,125g,
+sub,23,2,13051403,beer-wine-spirits,Casa Subercaseaux Red Wine - Cabernet Sauvignon,16.9,750ml,
+sub,23,3,13254211,beer-wine-spirits,Casa Subercaseaux Merlot Red Wine,16.9,750ml,
+sub,23,4,13051429,beer-wine-spirits,Casa Subercaseaux White Wine - Sauvignon Blanc,16.9,750ml,
+sub,23,5,90052717,health--wellness,Earth's Creation Extra Strength Sublingual Melatonin,39.9,60 S,
+sub,23,6,90232821,frozen,Subi Frozen Seafood - Crumbed Pollock Fish Fingers,8.0,400 G,
+sub,23,7,90245631,meat-seafood,Subi Frozen - Crumbed Spicy Korean Pollock Fish Fingers,5.5,400 G,
+sub,23,8,90245627,meat-seafood,Subi Frozen Seafood - Tempura Pollock Fish Fillets,8.0,260 G,
+sub,23,9,90232823,frozen,Subi Frozen Seafood - Battered Squid Based Rings,8.0,400 G,
+sub,23,10,90251452,dairy-chilled-eggs,Sublime No. 6 Garlic Rosemary and Mint Butter,9.9,90 G,
+sub,23,11,90251443,dairy-chilled-eggs,Sublime No. 11 Lemon Caper and Dill Butter,9.9,90 G,
+sub,23,12,90248187,frozen,TOI Frozen Indonesia Fishcake (Pempek Submarine),9.5,315 G,
+sub,23,13,90251441,dairy-chilled-eggs,Sublime No. 1 Pink Himalayan Salt Butter,12.5,200 G,
+sub,23,14,90251442,dairy-chilled-eggs,Sublime No. 12 Truffle Parmesan and Black Pepper Butter,11.0,90 G,
+sub,23,15,90251462,dairy-chilled-eggs,Sublime No. 19 Bearnaise Butter,9.9,90 G,
+sub,23,16,90235558,electronics-5,Sennheiser AMBEO Subwoofer,1099.0,1 S,
+sub,23,17,1,electronics-5,Dyson V12s Detect Slim Submarine​ Wet & Dry Vacuum Cleaner,999.0,7.69 KG,
+sub,23,18,90244688,electronics-5,Dyson V12s Origin Submarine Wet & Dry Vacuum,899.0,1 S,
+sub,23,19,90218216,electronics-5,Razer Nommo V2 Pro 2.1 Gaming Speakers Wireless Subwoofer,663.21,1 S,
+sub,23,20,90251134,electronics-5,Kanto SUB8 Subwoofer - Black,499.0,1 S,
+nectar,21,1,13234156,food-cupboard-6,Sweet Nature Multifloral Manuka Honey 50+,20.09,500g,Halal
+nectar,21,2,13252153,food-cupboard-6,Wild Nectar 100% Cold Extracted - Raw Honey (Jar),11.0,450g,
+nectar,21,3,13252151,food-cupboard-6,Wild Nectar 100% Cold Extracted Australian Honey,19.9,1kg,
+nectar,21,4,13079296,food-cupboard-6,Sweet Nature Manuka Honey UMF 5+,28.0,500g,
+nectar,21,5,90239400,drinks,Lunica Blueberry Nectar Juice,5.9,250 ML,
+nectar,21,6,90239393,drinks,Lunica Plum Nectar Juice,4.9,250 ML,
+nectar,21,7,90239392,drinks,Lunica Pear Nectar Juice,4.9,250 ML,
+nectar,21,8,13169856,food-cupboard-6,Egmont New Zealand Honey - Native Bush Honey,11.11,500g,
+nectar,21,9,90239383,drinks,Lunica Apple Nectar Juice,4.9,250 ML,
+nectar,21,10,90140341,drinks,Nectar Peach Juice - Kirei,4.1,350 ML,
+nectar,21,11,90239378,drinks,Lunica Strawberry Nectar Juice,5.9,250 ML,
+nectar,21,12,13070717,fruits-vegetables,Pasar White Nectarine,11.45,900g,
+nectar,21,13,13073346,household,Bio-Home Laundry Detergent Delicate - Hyacinth & Nectarine,12.12,1.5L,
+nectar,21,14,13071916,household,Bio-Home Laundry Detergent - Hyacinth & Nectarine,12.12,1.5L,
+nectar,21,15,13208385,household,Bio-Home Delicate Laundry Detergent Refill-Hyacinth & Nectarine,7.08,900ml,
+nectar,21,16,13208384,household,Bio-Home Laundry Detergent Refill-Hyacinth & Nectarine,7.08,900ml,
+nectar,21,17,90201553,beauty--personal-care,Elizabeth Arden Eau De Toilette - Green Tea Nectarine Blossom,24.9,100 ML,
+nectar,21,18,90164151,beer-wine-spirits,Gonzalez Byass Nectar PX,48.0,750 ML,
+nectar,21,19,90031279,rice-noodles-cooking-ingredients,Green Apple Organic Agave Nectar,11.2,350 ML,
+nectar,21,20,90015766,rice-noodles-cooking-ingredients,Now Foods Organic Blue Agave Nectar,16.9,660 G,
+nectar,21,21,90252070,drinks,Folkington's Mango Juice Nectar,5.95,250 ML,
+nectar,21,22,90216663,dairy-chilled-eggs,Saint Nectaire Fermier by The Cheese Shop,15.1,200 G,

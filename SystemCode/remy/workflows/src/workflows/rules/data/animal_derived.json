@@ -1,0 +1,30 @@
+{
+  "meat": [
+    "beef", "pork", "lamb", "mutton", "veal", "venison", "bison",
+    "goat", "rabbit", "horse", "kangaroo"
+  ],
+  "poultry": [
+    "chicken", "turkey", "duck", "goose", "quail", "pheasant",
+    "partridge", "pigeon", "squab"
+  ],
+  "seafood": [
+    "fish", "cod", "salmon", "tuna", "anchovy", "anchovies",
+    "sardine", "sardines", "mackerel", "haddock", "pollock",
+    "tilapia", "bass", "trout", "shrimp", "prawn", "prawns",
+    "crab", "lobster", "crayfish", "crawfish", "clam", "clams",
+    "mussel", "mussels", "oyster", "oysters", "scallop", "scallops",
+    "squid", "calamari", "octopus"
+  ],
+  "animal_derived": [
+    "gelatin", "gelatine", "lard", "tallow", "suet",
+    "bone meal", "bone broth", "bone stock",
+    "carmine", "cochineal", "e120",
+    "isinglass", "rennet", "pepsin",
+    "shellac", "e904",
+    "casein", "whey", "lactose",
+    "albumin", "ovalbumin",
+    "collagen",
+    "keratin",
+    "lanolin"
+  ]
+}

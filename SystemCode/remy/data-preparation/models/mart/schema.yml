@@ -1,0 +1,118 @@
+version: 2
+
+models:
+  - name: node_recipe
+    columns:
+      - name: recipe_id
+        tests: [not_null, unique]
+      - name: source
+        tests: [not_null]
+
+  - name: node_food_concept
+    columns:
+      - name: canonical_key
+        tests: [not_null, unique]
+      - name: status
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['unmatched', 'nutrition_only', 'price_reference', 'cost_ready']
+      - name: normalization_version
+        tests: [not_null]
+
+  - name: node_food
+    columns:
+      - name: food_key
+        tests: [not_null, unique]
+      - name: fdc_id
+        tests: [not_null, unique]
+      - name: nutrition_source
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['crawler_fdc_profile', 'fooddata_central']
+      - name: nutrition_status
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['validated', 'incomplete', 'missing']
+      - name: nutrition_basis
+        tests: [not_null]
+      - name: nutrition_version
+        tests: [not_null]
+
+  - name: node_component
+    columns:
+      - name: component_id
+        tests: [not_null, unique]
+
+  - name: edge_requires
+    columns:
+      - name: occurrence_id
+        tests: [not_null, unique]
+      - name: recipe_id
+        tests:
+          - not_null
+          - relationships: {to: ref('node_recipe'), field: recipe_id}
+      - name: normalized_name
+        tests:
+          - not_null
+          - relationships: {to: ref('node_food_concept'), field: canonical_key}
+
+  - name: edge_fulfills
+    columns:
+      - name: candidate_key
+        tests: [not_null, unique]
+      - name: food_key
+        tests:
+          - not_null
+          - relationships: {to: ref('node_food'), field: food_key}
+      - name: canonical_key
+        tests:
+          - not_null
+          - relationships: {to: ref('node_food_concept'), field: canonical_key}
+      - name: kind
+        tests:
+          - accepted_values: {values: ['direct', 'substitute']}
+      - name: approval_status
+        tests:
+          - accepted_values: {values: ['accepted']}
+      - name: price_match_status
+        tests:
+          - accepted_values: {values: ['unmatched', 'estimated', 'accepted']}
+      - name: halal_status
+        tests:
+          - accepted_values: {values: ['certified', 'retailer_claim', 'ingredient_screen_pass', 'not_halal', 'conflict', 'unknown']}
+      - name: may_allergic
+        tests: [not_null]
+      - name: allergen_screening_status
+        tests:
+          - accepted_values: {values: ['potential_contains', 'unknown']}
+      - name: may_non_vegetarian
+        tests: [not_null]
+      - name: vegetarian_status
+        tests:
+          - accepted_values: {values: ['retailer_claim', 'ingredient_screen_pass', 'potential_not_vegetarian', 'unknown']}
+
+  - name: edge_has_component
+    columns:
+      - name: id
+        tests: [not_null, unique]
+      - name: food_key
+        tests:
+          - not_null
+          - relationships: {to: ref('node_food'), field: food_key}
+      - name: component_id
+        tests:
+          - not_null
+          - relationships: {to: ref('node_component'), field: component_id}
+
+  - name: graph_quality_manifest
+    columns:
+      - name: entity
+        tests: [not_null, unique]
+      - name: row_count
+        tests: [not_null]
+      - name: within_allocation
+        tests:
+          - accepted_values: {values: [true]}
